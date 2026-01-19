@@ -11,11 +11,11 @@ body {
   line-height: 1.5;
 }
 
-.Body2{
-  display: flex;
-  gap:20px;
-  flex-wrap:wrap;
-  justify-content:center;
+.grid-container {
+ display: grid;
+ gap: 20px;
+ justify-content: center;
+ grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* HEADER */
@@ -40,8 +40,8 @@ body {
 .section {
   margin-bottom: 30px;
   border: 1px solid #e5e7eb;
-  padding-right:24px;
-  padding-left:24px;
+  padding-right: 24px;
+  padding-left: 24px;
   border-radius: 2px;
 }
 
@@ -55,9 +55,10 @@ body {
 /* layouts */
 .layout {
   background: #ffffff;
-  padding: 14px 16px;
+  padding: 10px 12px;
   border-radius: 4px;
 }
+
 
 /* TABLE */
 table {
@@ -73,6 +74,7 @@ th, td {
   border-bottom: 1px solid #d1d4d8;
   text-align: left;
 }
+
 
 th {
   background: #f1f5f9;
@@ -93,7 +95,6 @@ button:hover {
   background-color: #2563eb;
   color: #ffffff;
 }
-
 .fee p {
   padding-bottom: 5px;
 }
