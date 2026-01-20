@@ -16,7 +16,9 @@ body {
  gap: 20px;
  justify-content: center;
  grid-template-columns: 1fr 1fr 1fr;
+ 
 }
+
 
 /* HEADER */
 .header {
@@ -39,10 +41,15 @@ body {
 /* SECTIONS */
 .section {
   margin-bottom: 30px;
-  border: 1px solid #e5e7eb;
+  border: 2px solid #e5e7eb;
   padding-right: 24px;
   padding-left: 24px;
-  border-radius: 2px;
+  transition: 0.2s ease;
+  border-radius: 16px;
+}
+
+.section:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .section h2 {
@@ -56,7 +63,7 @@ body {
 .layout {
   background: #ffffff;
   padding: 10px 12px;
-  border-radius: 4px;
+  
 }
 
 
@@ -75,10 +82,10 @@ th, td {
   text-align: left;
 }
 
-
 th {
   background: #f1f5f9;
 }
+
 
 /* BUTTON */
 button {
