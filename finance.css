@@ -95,8 +95,8 @@ button {
   color: #2563eb;
   border-radius: 4px;
   cursor: pointer;
-  transition: 0.2s ease;
   font-size: 14px;
+  transition: 0.2s ease;
 }
 
 button:hover {
@@ -106,4 +106,5 @@ button:hover {
 .fee p {
   padding-bottom: 5px;
 }
+
 
