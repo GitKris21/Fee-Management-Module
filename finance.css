@@ -48,6 +48,10 @@ body {
   border-radius: 16px;
 }
 
+.fee{
+  padding-top: 8px;
+}
+
 .section:hover{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01), 0 1.6px 10px 0 rgba(0, 0, 0, 0.19);
 }
@@ -106,6 +110,7 @@ button:hover {
 .fee p {
   padding-bottom: 5px;
 }
+
 
 
 
