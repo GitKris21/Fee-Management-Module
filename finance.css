@@ -41,7 +41,7 @@ body {
 /* SECTIONS */
 .section {
   margin-bottom: 30px;
-  border: 2px solid #e5e7eb;
+  border: 1px solid #e5e7eb;
   padding-right: 24px;
   padding-left: 24px;
   transition: 0.2s ease;
@@ -106,5 +106,6 @@ button:hover {
 .fee p {
   padding-bottom: 5px;
 }
+
 
 
