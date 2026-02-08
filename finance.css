@@ -22,7 +22,8 @@ body {
 
 /* HEADER */
 .header {
-  background-color: rgb(58, 51, 122);
+  /* background-color: rgb(58, 51, 122); */
+  background-color: #f05123;
   color: #ffffff;
   padding: 20px;
   border-radius: 6px;
@@ -94,9 +95,9 @@ th {
 /* BUTTON */
 button {
   padding: 8px 14px;
-  border: 1px solid #2563eb;
+  border: 1px solid #f05123;
   background: #ffffff;
-  color: #2563eb;
+  color: #f05123;
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
@@ -104,14 +105,9 @@ button {
 }
 
 button:hover {
-  background-color: #2563eb;
+  background-color: #f05123;
   color: #ffffff;
 }
 .fee p {
   padding-bottom: 5px;
 }
-
-
-
-
-
